@@ -1,0 +1,8 @@
+2018-04-05 22:59:49,572 ERROR [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: MAX_APP_ATTEMPTS is null
+2018-04-05 22:59:49,573 FATAL [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Error starting MRAppMaster
+java.io.IOException: MAX_APP_ATTEMPTS is null
+	at org.apache.hadoop.mapreduce.v2.app.MRAppMaster.validateInputParam(MRAppMaster.java:1332)
+	at org.apache.hadoop.mapreduce.v2.app.MRAppMaster.main(MRAppMaster.java:1358)
+2018-04-05 22:59:49,577 INFO [main] org.apache.hadoop.util.ExitUtil: Exiting with status 1: java.io.IOException: MAX_APP_ATTEMPTS is null
+
+

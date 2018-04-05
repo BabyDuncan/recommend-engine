@@ -32,7 +32,7 @@ public class TestDataGenerator {
 
     }
 
-    private static float generateScore() {
+    private static int generateScore() {
         return new Random().nextInt(10);
     }
 
